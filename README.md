@@ -8,7 +8,7 @@ I got bored and made a simple minigame for FiveM. You have a 1 out of 10 chance 
 
 `/cgame` - Starts the mini-game.
 
-`/cgamereset` - Requires `chatgamereset.staff` permission
+`/cgamereset` - Requires `chatgame.staff` permission
 
 ## Download
 https://github.com/BreezyTheDev/Breezy_Crashgame
