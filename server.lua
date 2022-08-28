@@ -15,7 +15,7 @@ RegisterCommand("cgame", function(source, args, rawCommand)
             sendMsg(source, "^1Unlucky! Your game will now crash in ^510 ^1seconds.")
             Citizen.Wait(10000)
             DropPlayer(source, "[System] Sad to see you go! :(")
-            print("^1"..name.." ^5was dropped from the game. Caused by: ^1CrashPlayer")
+            print("^1"..name.." ^5was dropped from the game. Caused by: ^1Breezy_Crashgame")
         else
             sendMsg(source, "^2You was given a ^11 out of 10 ^2chance to crash your game and you survived! Consider yourself lucky!")
         end
