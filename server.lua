@@ -14,7 +14,8 @@ RegisterCommand("cgame", function(source, args, rawCommand)
             local time = 10000
             sendMsg(source, "^1Unlucky! Your game will now crash in ^510 ^1seconds.")
             Citizen.Wait(10000)
-            DropPlayer(source, "Sad to see you go!") 
+            DropPlayer(source, "[System] Sad to see you go! :(")
+            print("^1"..name.." ^5was dropped from the game. Caused by: ^1CrashPlayer")
         else
             sendMsg(source, "^2You was given a ^11 out of 10 ^2chance to crash your game and you survived! Consider yourself lucky!")
         end
@@ -26,7 +27,7 @@ RegisterCommand("resetcgame", function(source, args, rawCommand)
     if IsPlayerAceAllowed(src, "crashgame.staff") then
         if alreadyplayed == true then
             alreadyplayed = false
-            sendMsg(source, "^5You successfully reseted ^1/cgame ^5Good luck! :)")
+            sendMsg(source, "^5You have successfully reseted ^1/cgame ^5Good luck! :)")
         else
             sendMsg(source, "^5You silly goose, you haven't played the game yet... :)")
         end
