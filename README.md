@@ -7,6 +7,7 @@ I got bored and made a simple minigame for FiveM. You have a 1 out of 10 chance 
 ## Commands
 
 `/cgame` - Starts the mini-game.
+
 `/cgamereset` - Requires `chatgamereset.staff` permission
 
 ## Download
